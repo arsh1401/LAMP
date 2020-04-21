@@ -1,0 +1,108 @@
+@-ms-viewport {                  
+    width: device-width;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+/*Header Area*/
+.header {
+    width: 100vw;
+}
+.logo-navbar {
+    background: #28201e;
+    border-bottom: 1vh solid #28201e;
+}
+/*Logo in Header */
+.logo-image-span {
+    margin-left: 3vw;
+    margin-top: 2%;
+}
+.logo-image {
+    height: 6vh;
+}
+.nav-bar {
+    color: #d2923a;
+    text-decoration: none;
+    text-align: right;
+    word-spacing: 2.7vw;
+    font-size: 1.3em;
+    position: relative;
+    left: 52.5vw;
+    display: inline-block;
+}
+.navigation {
+    text-decoration: none;
+    color: #d2923a;
+}
+.navigation :link {
+    color: #d2923a;
+    text-decoration: none;
+}
+.navigation :hover {
+    color: #d2923a;
+    text-decoration: underline;
+}
+.navigation :active {
+    color: #d2923a;
+    text-decoration: none;
+}
+.navigation :visited {
+    color: #d2923a;
+    text-decoration: none;
+}
+
+.para-intro {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #28201e;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+.buttons button {
+    width: 13.5vw;
+    height: 8vh;
+    font-size: 1.3em;
+    justify-content: space-between;
+    margin: auto;
+    background: #d2923a;
+    color: #28201e;
+}
+.buttons button:hover {
+    background: #eca541;
+}
+
+.hobby-images {
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 1px solid #d2923a;
+    max-width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.hobby-images img {
+    width: 15vw;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    opacity: 0.9;
+}
+
+.hobby-images img:hover {
+    opacity: 1;
+}
