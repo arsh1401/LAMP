@@ -1,0 +1,317 @@
+@-ms-viewport {                  
+    width: device-width;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header, Body Section */
+.header {
+    margin-top: 6vh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 0vh;
+}
+.section {
+    margin-top: -4vh;
+    margin-bottom: -4vh;
+}
+.header, .section {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    background: white;
+}
+.header-inside, .section-inside {
+    margin-left: 3vw;
+    margin-right: 3vw;    
+}
+.header-inside {
+    display: flex;
+}
+
+/*Word Icon*/
+.circle {
+    height:66px;
+    width: 66px;
+    border-radius: 50%;
+    background: #01a2ff;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.first-word {
+    color: white;
+    margin-left: -3.6vw;
+    margin-top: 2vh;
+}
+.full-name {
+    margin-left: 2vw;
+}
+.lname {
+    color: rgb(70, 70, 70);
+}
+.header-inside .options {
+    display: flex;
+    align-items: center;
+    margin-left:15vw;
+    text-decoration: none;
+    margin-top: -3vh;
+}
+.options-items:hover {
+    color: black;
+}
+.options-items {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    margin-left: 2.5vw;
+}
+.section-inside {
+    display: flex;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+}
+.myimage {
+    width: 15vw;
+    /* height: 30vh; */
+    border-radius: 50%;
+}
+.image-container-left {
+    width: 25vw;
+    margin-right: 5vw;
+}
+.ny-data-right {
+    width: 75vw;
+    position: relative;
+    display: grid;
+}
+.mycv, .mycontact {
+    width: 15vw;
+    height: 5vh;
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+.mycv:hover, .mycontact:hover {
+    border: 1px solid #01a2ff;
+    background: #01a2ff;
+    box-shadow: .5px .5px .5px 1px #01a2ff;
+}
+.mycontact {
+    margin-left: 4vw;
+}
+
+
+
+/*Education Department */
+#education-link {
+    margin-left: 7vw;
+}
+.education-underline {
+    width: 8vw;
+    height: .2vh;
+    display: block;
+    background-image: linear-gradient(to right, #01a2ff 30%, #d8d8d8 10%);
+    margin-left: 7vw;
+    margin-top: -1.8vh;
+}
+.education-background {
+    display: flex;
+    width: 80vw;
+    margin-top: 3vh;
+    margin-left: 15vw;
+}
+.icon-degree {
+    width: 6vw;
+}
+.education-background1, .education-background2 {
+    width: 50vw;
+    display: block;
+}
+.para-details-study {
+    width: 30vw;
+}
+
+/*Separator*/
+.separator1 {
+    width: 11vw;
+    height: .4vh;
+    display: block;
+    background-image: linear-gradient(to right, #01a2ff 30%, white 5%, #d8d8d8 65%);
+    margin-left: 42vw;
+}
+
+
+/* Skills */
+#skills-link {
+    margin-left: 7vw;
+}
+.skills-underline {
+    width: 4.4vw;
+    height: .2vh;
+    display: block;
+    background-image: linear-gradient(to right, #01a2ff 30%, #d8d8d8 10%);
+    margin-left: 7vw;
+    margin-top: -1.8vh;
+}
+.skills-background {
+    display: flex;
+    width: 80vw;
+    margin-top: 3vh;
+    margin-left: 15vw;
+}
+.icon-skills {
+    width: 6vw;
+}
+.skills-background1, .skills-background2 {
+    width: 50vw;
+    display: block;
+}
+.para-details-skills {
+    width: 30vw;
+}
+
+/*Volunteer*/
+#volunteer-link {
+    margin-left: 7vw;
+}
+.volunteer-underline {
+    width: 7.7vw;
+    height: .2vh;
+    display: block;
+    background-image: linear-gradient(to right, #01a2ff 30%, #d8d8d8 10%);
+    margin-left: 7vw;
+    margin-top: -1.8vh;
+}
+.volunteer-background {
+    display: flex;
+    width: 80vw;
+    margin-top: 3vh;
+    margin-left: 15vw;
+}
+.volunteer-background1, .volunteer-background2 {
+    width: 50vw;
+    display: block;
+}
+.icon-volunteer {
+    width: 6vw;
+}
+.para-details-volunteer {
+    width: 30vw;
+}
+
+/* Experience */
+#experience-link {
+    margin-left: 7vw;
+}
+.experience-underline {
+    width: 8.8vw;
+    height: .2vh;
+    display: block;
+    background-image: linear-gradient(to right, #01a2ff 30%, #d8d8d8 10%);
+    margin-left: 7vw;
+    margin-top: -1.8vh;
+}
+.experience-background {
+    display: flex;
+    width: 80vw;
+    margin-top: 3vh;
+    margin-left: 15vw;
+}
+.experience-background1, .experience-background2 {
+    width: 50vw;
+    display: block;
+}
+.icon-experience {
+    width: 6vw;
+}
+.para-details-experience {
+    width: 30vw;
+}
+
+/* Hobbies */
+#hobbies-link {
+    margin-left: 7vw;
+}
+.hobbies-underline {
+    width: 6.8vw;
+    height: .2vh;
+    display: block;
+    background-image: linear-gradient(to right, #01a2ff 30%, #d8d8d8 10%);
+    margin-left: 7vw;
+    margin-top: -1.8vh;
+}
+.hobbies-background {
+    display: flex;
+    width: 80vw;
+    margin-top: 3vh;
+    margin-left: 15vw;
+}
+.hobbies-background1, .hobbies-background2 {
+    width: 50vw;
+    display: block;
+}
+.icon-hobbies {
+    width: 6vw;
+    height: 11vh;
+}
+.para-details-hobbies {
+    width: 30vw;
+}
+/*Projects*/
+#projects-link {
+    margin-left: 6.9vw;
+}
+.projects-underline {
+    width: 6.9vw;
+    height: .2vh;
+    display: block;
+    background-image: linear-gradient(to right, #01a2ff 30%, #d8d8d8 10%);
+    margin-left: 7vw;
+    margin-top: -1.8vh;
+}
+.projects-background {
+    display: flex;
+    width: 80vw;
+    margin-top: 3vh;
+    margin-left: 15vw;
+}
+.projects-background1, .projects-background2 {
+    width: 50vw;
+    display: block;
+}
+.icon-projects {
+    width: 6vw;
+}
+.para-details-projects {
+    width: 30vw;
+}
+#mybtn {
+    width: 0.1vw;
+    color: #01a2ff;
+    margin-left: 86.5vw;    
+}
+
+/*Contact Details in Footer */
+#footer {
+    margin-top: 0vh;
+    margin-bottom: 6vh;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    background: white ;
+    box-shadow: 0.1px 0.1px 10px 0.1px black;
+    text-align: right;
+}
+.footer-logo {
+    width: 3.5vw;
+    margin-right: 1.4vw;
+    height: 6.5vh;
+}
